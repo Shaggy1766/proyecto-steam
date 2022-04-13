@@ -1,0 +1,147 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1b28389d;
+    margin: 0% auto;
+    width: 80%;
+}
+
+.logo__steam__grande{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.titulos{
+    display: grid;
+    grid-row: auto;
+    text-align: center;
+    margin: 2rem;
+    background-color: #1b28389d;
+}
+
+.nav__link{
+    list-style: none;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #1b2838;
+    flex-wrap: wrap;
+}
+
+.nav__list{
+    padding: 1rem;
+    font-size: larger;
+    display: flex;
+}
+
+#inicio__recomendados{
+    text-align: center;
+    margin: 2rem;
+}
+
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.plantilla{
+    display: grid;
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "header"
+    "titulos"
+    "content"
+    "footer";
+}
+
+.content__index{
+    grid-area: content;
+    display: grid;
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 3fr 3fr;
+}
+
+.juegos{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #1b2838;
+}
+
+.descripcion__juegos{
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    color: aliceblue;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#categorias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #1b2838;
+    margin: 1rem;
+    border: 5px solid black;
+    justify-content: space-around;
+}
+
+.card__formulario{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #1b2838;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 3rem;
+}
+
+.formulario{
+    padding: 0.5rem;
+}
+
+.descarga{
+    display: grid;
+    background-color: #1b28389d;
+    padding: 3rem;
+    margin: 4rem;
+}
+
+.img__steam__descarga{
+    display: block;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.soporte{
+    display: grid;
+    grid-template-columns: 20rem;
+    list-style: none;
+    justify-content: center;
+    padding: 3rem;
+    margin: 4rem;
+    background-color: #1b28389d;
+    text-align: center;
+}
+
+.soporte__link{
+    grid-template-rows: 4rem;
+}
+
+footer{
+    grid-area: footer;
+    display: grid;
+    background-color: #1b2838;
+}
